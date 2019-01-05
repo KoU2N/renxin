@@ -1,0 +1,17 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>resource/openpose.png</file>
+    <file>resource/icon.png</file>
+    <file>resource/loading.png</file>
+    <file>resource/clear_log.png</file>
+    <file>resource/open_camera.png</file>
+    <file>resource/close_camera.png</file>
+    <file>resource/scrip.png</file>
+    <file>resource/ppt.png</file>
+    <file>resource/play.png</file>
+    <file>resource/pause.png</file>
+    <file>resource/next.png</file>
+    <file>resource/expand.png</file>
+    <file>resource/previous.png</file>
+  </qresource>
+</RCC>
