@@ -14,14 +14,14 @@ Professor Ren，gy，lz，zz，lje
 ## 工作安排
 - [ ] **任务2019年2月25日**
     - [ ] gy
-        - [ ] 基于HMM的个性化TTS
+        - [ ] 基于HMM的个性化TTS(完成日期:)
     - [ ] zz
-        - [ ] 搭建个本地github,可行方案gitlab
-        - [ ] ppt播放前进后退功能
+        - [ ] 搭建个本地github,可行方案gitlab(完成日期:)
+        - [ ] ppt播放前进后退功能(完成日期:)
     - [ ] lz
-        - [ ] gTTS生成语音替换为百度男声，可行方案python_test/baidu_tts.py
+        - [ ] gTTS生成语音替换为百度男声，可行方案python_test/baidu_tts.py(完成日期:)
     - [ ] lje
-        - [ ] 一席ppt处理
+        - [ ] 一席ppt处理(完成日期:)
 
 - [ ] **任务进度总览**
     - [x] 主程序
