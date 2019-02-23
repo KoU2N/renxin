@@ -1,8 +1,8 @@
+# -*- coding: utf-8 -*-
 """[预处理模块]
-负责人:刘铮
+负责人:lz
 功能:提取ppt中的文本生成脚本和语音
 """
-# -*- coding: utf-8 -*-
 import os
 from pptx import Presentation
 from PyQt5.QtCore import QThread, pyqtSignal

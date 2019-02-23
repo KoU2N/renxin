@@ -5,7 +5,7 @@
 #
 # 2018年12月
 """[主程序客户端]
-负责人:高云
+负责人:gy
 功能:...
 """
 import sys
@@ -233,6 +233,12 @@ class MainClient(QMainWindow, ui_client.Ui_Dialog):
     def raise_hand_callback(self, hand_status):
         self.log_view.insertPlainText("检测到"+hand_status+"举起...\n")
         self.log_view.ensureCursorVisible()
+
+        # 暂停线程
+        self.thread.pause()
+        icon = QtGui.QIcon()
+        icon.addPixmap(QtGui.QPixmap(":/icons/resource/pause.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off,)
+        self.btn_play.setIcon(icon)
 
 
 if __name__ == '__main__':

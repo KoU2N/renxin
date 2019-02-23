@@ -1,5 +1,6 @@
+# -*- coding: utf-8 -*-
 """[脚本控制模块]
-负责人:周正
+负责人:zz
 功能:控制ppt播放
 """
 # import win32com.client

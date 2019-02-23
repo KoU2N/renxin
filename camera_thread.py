@@ -1,5 +1,5 @@
 """[事件监测模块]
-负责人:李佳恩
+负责人:lje
 功能:调用openpose识别动作，目前可以识别举手动作包含左右手
 """
 from PyQt5.QtCore import QThread, pyqtSignal, Qt
