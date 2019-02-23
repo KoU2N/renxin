@@ -19,9 +19,9 @@ Professor Ren，gy，lz，zz，lje
         - [ ] 搭建个本地github,可行方案gitlab(完成日期:)
         - [ ] ppt播放前进后退功能(完成日期:)
     - [ ] lz
-        - [ ] gTTS生成语音替换为百度男声，可行方案python_test/baidu_tts.py(完成日期:)
+        - [ ] gTTS生成语音替换为百度男声，可行方案./python_test/baidu_tts.py(完成日期:)
     - [ ] lje
-        - [ ] 一席ppt处理(完成日期:)
+        - [ ] 一席ppt处理,文本:./play/一席.txt,ppt: A1服务器/任先生/Yixi(完成日期:)
 
 - [ ] **任务进度总览**
     - [x] 主程序
