@@ -16,8 +16,8 @@ Professor Ren，gy，lz，zz，lje
     - [ ] gy
         - [ ] 基于HMM的个性化TTS(完成日期:)
     - [ ] zz
-        - [ ] 搭建个本地github,可行方案gitlab(完成日期:)
         - [ ] ppt播放前进后退功能(完成日期:)
+        - [ ] 搭建个本地github,可行方案gitlab(完成日期:)
     - [ ] lz
         - [ ] gTTS生成语音替换为百度男声，可行方案./python_test/baidu_tts.py(完成日期:)
     - [ ] lje
