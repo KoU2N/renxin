@@ -17,7 +17,7 @@ Professor Ren，gy，lz，zz，lje
         - [ ] 唇形匹配方案
         - [ ] gTTS生成语音替换为百度男声，可行方案./python_test/baidu_tts.py
     - [ ] zz
-        - [ ] ppt播放前进后退功能
+        - [ ] ppt播放前进后退功能，如果目前多线程不合理可以考虑一个新方案
     - [ ] lje
         - [ ] 一席ppt处理,文本:./play/一席.txt,ppt: A1服务器/任先生/Yixi
     - [ ] gy
