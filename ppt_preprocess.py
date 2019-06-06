@@ -88,7 +88,7 @@ class PreprocessThread(QThread):
         """
         print(savetext)
         print(savefile)
-        file_object = open(savefile, 'w', encoding="gb2312")
+        file_object = open(savefile, 'w', encoding="utf8")
         file_object.write(savetext)
         file_object.close()
 
@@ -99,7 +99,7 @@ class PreprocessThread(QThread):
         :return:
         """
         from gtts import gTTS
-        tts = gTTS(text=sentence, lang='zh-cn')
+        tts = gTTS(text=sentence, lang='ja') #lang='zh-cn'
         tts.save(self.wav_save_path + save_wavname)
 
     def create_script(self, remarks_list):

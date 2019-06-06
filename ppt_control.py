@@ -89,7 +89,7 @@ class PlayControllerThread(QThread):
 		self.end_play.emit()
 	def get_lines(self):
 		lines = []
-		with open('./play/controll.ps', 'r', encoding='gb2312') as reader:
+		with open('./play/controll.ps', 'r', encoding='utf8') as reader:
 			for i, line in enumerate(reader):
 				lines.append(line)
 		return lines

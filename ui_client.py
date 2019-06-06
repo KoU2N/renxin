@@ -8,7 +8,6 @@
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 
-
 class Ui_Dialog(object):
     def setupUi(self, Dialog):
         Dialog.setObjectName("Dialog")
@@ -73,6 +72,15 @@ class Ui_Dialog(object):
         self.btn_open_camera.setText("")
         self.btn_open_camera.setIconSize(QtCore.QSize(48, 48))
         self.btn_open_camera.setObjectName("btn_open_camera")
+        self.radioButton = QtWidgets.QRadioButton(self.groupBox)
+        self.radioButton.setGeometry(QtCore.QRect(200, 10, 51, 20))
+        self.radioButton.setObjectName("radioButton")
+        self.radioButton_2 = QtWidgets.QRadioButton(self.groupBox)
+        self.radioButton_2.setGeometry(QtCore.QRect(280, 10, 61, 20))
+        self.radioButton_2.setObjectName("radioButton_2")
+        self.radioButton_3 = QtWidgets.QRadioButton(self.groupBox)
+        self.radioButton_3.setGeometry(QtCore.QRect(370, 10, 71, 20))
+        self.radioButton_3.setObjectName("radioButton_3")
         self.log_view = QtWidgets.QTextBrowser(Dialog)
         self.log_view.setGeometry(QtCore.QRect(680, 390, 432, 191))
         self.log_view.setAutoFillBackground(True)
@@ -81,6 +89,7 @@ class Ui_Dialog(object):
         self.camera_view.setGeometry(QtCore.QRect(680, 10, 432, 368))
         self.camera_view.setStyleSheet("border-image: url(:/icons/resource/openpose.png);")
         self.camera_view.setText("")
+        self.camera_view.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignTop)
         self.camera_view.setObjectName("camera_view")
         self.ppt_view = QtWidgets.QLabel(Dialog)
         self.ppt_view.setGeometry(QtCore.QRect(10, 100, 656, 368))
@@ -192,6 +201,9 @@ class Ui_Dialog(object):
         _translate = QtCore.QCoreApplication.translate
         Dialog.setWindowTitle(_translate("Dialog", "机器人客户端V1.0"))
         self.groupBox.setStatusTip(_translate("Dialog", "上传PPT"))
+        self.radioButton.setText(_translate("Dialog", "中文"))
+        self.radioButton_2.setText(_translate("Dialog", "日本語"))
+        self.radioButton_3.setText(_translate("Dialog", "English"))
         self.ppt_view.setText(_translate("Dialog", "A1-Project 授课机器人客户端"))
         self.btn_connect.setText(_translate("Dialog", "连接"))
         self.label_2.setText(_translate("Dialog", "端口"))
@@ -200,4 +212,5 @@ class Ui_Dialog(object):
         self.lineEdit.setText(_translate("Dialog", "192.168.1.160"))
         self.btn_connect_2.setText(_translate("Dialog", "断开"))
         self.btn_clear_log.setText(_translate("Dialog", "CLS"))
+
 import icons_rc
