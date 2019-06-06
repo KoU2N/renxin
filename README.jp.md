@@ -4,6 +4,7 @@
 - 環境
     -  python3.6.7
     -  GUIライブラリはpyqt5です
+    -  gtts、playsound、pyobjcなど
 - 現在のmaster branchはロボット環境から離れています
 - 計画
     - master - >実際のロボット環境コード（windows）
